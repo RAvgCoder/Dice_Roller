@@ -14,7 +14,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -104,7 +103,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(150.dp))
 
         // Button for choosing the amount of dice you have
-        DiceAmount(){ changedAmount ->
+        DiceAmount{ changedAmount ->
             numberOfDice = changedAmount
         }
     }
