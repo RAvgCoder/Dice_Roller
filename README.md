@@ -3,7 +3,7 @@
 The Dice Roller app is a simple Android application that allows users to roll dice virtually. It uses Jetpack Compose, a modern UI toolkit for building native Android apps with Kotlin. Users can select the number of dice to roll, and each roll generates random numbers for the dice, displaying the corresponding dice images and the total roll number.
 
 ## Screenshots
-|         One dice          |         Two Dice          |
+|         One Die        |         Two Dice          |
 |:-------------------------:|:--------------------------:|
 | ![Rolling only one dice](./images/1_dice_choice_with_win.png) |![Rolling only one dice](./images/2_dice_roll.png) |
 
